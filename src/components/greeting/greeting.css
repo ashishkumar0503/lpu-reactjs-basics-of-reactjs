@@ -1,0 +1,13 @@
+.greetContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    margin: 10px;
+}
+
+.greetItems{
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px;
+}
