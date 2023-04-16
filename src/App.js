@@ -12,8 +12,11 @@
 // import useCounter from './components/hooks/customHooks/useCounter';
 // import UseRef from './components/hooks/UseRef';
 
+import AxiosMethod from "./components/httpMethod/AxiosMethod"
+import Fetch from "./components/httpMethod/Fetch"
 
-import Routing from "./components/routing/Routing"
+
+//import Routing from "./components/routing/Routing"
 
 
 
@@ -59,7 +62,9 @@ const App = () => {
             <button onClick={Decrement}>Decrement</button>
         </div>
         <UseRef/> */}
-        <Routing/>
+        {/* <Routing/> */}
+        <Fetch/>
+        <AxiosMethod/>
     </div>
   )
 }
