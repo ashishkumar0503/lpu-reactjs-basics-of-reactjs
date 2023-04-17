@@ -12,8 +12,11 @@
 // import useCounter from './components/hooks/customHooks/useCounter';
 // import UseRef from './components/hooks/UseRef';
 
-import AxiosMethod from "./components/httpMethod/AxiosMethod"
-import Fetch from "./components/httpMethod/Fetch"
+import Forms from "./components/forms/Forms"
+
+//import UseContext from "./components/hooks/UseContext"
+// import AxiosMethod from "./components/httpMethod/AxiosMethod"
+// import Fetch from "./components/httpMethod/Fetch"
 
 
 //import Routing from "./components/routing/Routing"
@@ -63,8 +66,10 @@ const App = () => {
         </div>
         <UseRef/> */}
         {/* <Routing/> */}
-        <Fetch/>
-        <AxiosMethod/>
+        {/* <Fetch/>
+        <AxiosMethod/> */}
+        {/* <UseContext/> */}
+        <Forms/>
     </div>
   )
 }
